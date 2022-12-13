@@ -203,8 +203,8 @@ x_transforms = transforms.Compose([
 y_transforms = transforms.ToTensor()
 
 
-PATH = './weights10_10.pth'
-PATH = './pro2_lr_1e-4_epoches_30.pth'
+# PATH = './weights10_10.pth'
+PATH = './pro2_lr_5e-4_epoches_100.pth'
 
 model.load_state_dict(torch.load(PATH))
 

@@ -218,7 +218,7 @@ if __name__ == '__main__':
     ecg_dataset = EcgDataset('./data/train/', 2400, 
                             transform=x_transforms, target_transform=y_transforms)
     dataloader = DataLoader(ecg_dataset, batch_size=batch_size, shuffle=True, num_workers=4)
-    num_epochs = 30
+    num_epochs = 1000
  
 
     print('Start training !')
