@@ -1,4 +1,4 @@
-# READEME
+# README
 This classification based on the ECG signal processing tool box which is helpful to locate the point of P, QRS and T wave.
 https://github.com/ElsevierSoftwareX/SOFTX-D-20-00010
 
