@@ -10,3 +10,5 @@ This package should be under the same directory of workspace.
 + ```fature_importance.m``` -- reduce the dimention of feature vector and obtain better generalization performance.
 
 + ```SVM_feature_extraction.m``` -- Feature extraction and SVM training
+
+The ```SVM_feature_extraction.m``` requires a filterd ECG signal seqence loaded as ```data.mat``` consists of the training data, training labels and testing data and testing labels which need to be contruct from previous section.
